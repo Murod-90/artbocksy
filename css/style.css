@@ -10,9 +10,41 @@
 
 .zafar {}
 
+.b-shadow {
+  box-shadow: 3px 3px 0px 3px #DE8E98;
+}
+
+.bg-purple {
+  background: #FFB0BA;
+  color: #9A3C48;
+}
+
+.bg-light-purple {
+  background: #F9F0EE;
+}
+
+.bg-blur {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(70px);
+}
+
 .aziz {}
 
-.dovron {}
+.dovron {
+  background-image: url(../img/dovron-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dovron__img{
+  width: 167px;
+  height: 148px;
+}
+
+.dovron__title,
+.dovron__text{
+  margin-top: 100px;
+}
 
 .fazliddin {}
 
