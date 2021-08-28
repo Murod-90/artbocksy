@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -17,4 +18,51 @@
 
 .sardor {}
 
-.footer {}
+.footer {
+  
+}
+
+.footer__top{
+  width: 100%;
+  height: 560px;
+  background-image: url(../image/подложка.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer__top-img{
+  position: relative;
+  margin-top: -170px;
+}
+.registartion-text{
+  width: 325px;
+  font-family: 'Montserrat';
+
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+  color: #371030;
+}
+.registartion{
+  position: relative;
+  top: -300px;
+  left: 330px;
+  width: 808px;
+  height: 351px;
+  background: #FBF7F6;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+.btn{
+  background: #FFB0BA;
+  width:324px ;
+  height:55px ;
+  border-radius: 15px;
+  color: #9A3C48;
+  font-family: 'Montserrat';
+  box-shadow: 3px 3px 0px 3px #DE8E98;
+font-weight: 900;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+  
+}
